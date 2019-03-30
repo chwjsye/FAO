@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 13px;
+}
+form{
+    width: 800px;
+    height: 600px;
+    margin: 50px auto;
+    padding-top: 20px;
+    
+    
+}
+p{
+    margin-top:15px;
+    
+}
+
+
+.uname ,.pword{
+    width: 150px;
+    height: 25px;
+    border: 1px solid #53ACC9;
+    padding: 2px 2px 2px 22px;
+}
+
+.btnLogin,.btnReg{
+    width: 70px;
+    height: 25px;
+    border-radius: 2px;
+    border: 1px solid #6B5D51;
+    margin-left: 30px;
+}
+h2{
+    font-size: 40px;
+}
+.a{
+    top:40px;
+    left: 40px;
+}
