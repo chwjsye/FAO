@@ -9,22 +9,45 @@
 </head>
 <body>
         <div class="box2">
-                <p><b>选择年级</b>
+                <form action="#" method="GET" autocomplete="off">
+                <p><span>选择年级</span>
+                        <select class="grade">
+                                        <option>一年级</option>
+                                        <option>二年级</option>
+                                        <option>三年级</option>
+                                        <option>四年级</option>
+                                        <option>五年级</option>
+                                        <option>六年级</option>
+                                </select>
+                        
                 </p>
-                <p><b>历史成绩</b>
+                <p><span>历史成绩
+                </span>
+                <select class="result" >
+                                <option>三天之内</option>
+                                <option>一星期之内</option>
+                                <option>一个月之内</option>
+                                <option>半年之内</option>
+                                <option>一年之内</option>
+                        </select>
                 </p>
-                <p><b>题目题数</b>
+                <p><span>题目题数</span><input type="num" name="sum" value="" required>
                 </p>
-                <p><b>操作数的数量</b>
+                <p><span>操作数的数量</span><input type="num1" name="sum1" value="" required>
                 </p>
-                <p><b>运算符的种类</b>
+                <p><span>运算符的种类</span>
                 </p>
-                <p><b>是否支持小数运算</b>
+                <p><span>是否支持小数运算</span>
                 </p>
-                <p><b>是否支持乘方运算</b>
+                <p><span>是否支持乘方运算</span>
                 </p>
-                <p><b>是否支持真分数运算</b>
+                <p><span>是否支持真分数运算</span>
                 </p>
+                <p class="btn">
+                                <input type="button" value="确定"/>
+                                <input type="reset" value="重置"/>
+                </p>
+        </form>
         </div>
 </body>
 </html>

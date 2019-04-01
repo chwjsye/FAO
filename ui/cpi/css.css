@@ -10,7 +10,53 @@ body{
     
 }
 .box2{
+    border-style: solid;
+    border-width: 3px ;
+    border-color: aqua;
+    width: 1400px;
+    height: 700px;
+    margin: 20px auto;
+    padding: 20px;
+    
+}
+p span{
+        width: 300px;
+        display:inline-block;
+        text-align: right;
+        padding-right: 10px;
+}
+.grade{
+    font-size: 20px;
+    font-weight: bold;
+    
+}
+.result{
+    font-size: 20px;
+    font-weight: bold;
+}
+p input{
+    width: 200px;
+    height: 20px;
+    border: 2px solid red;
+    padding-right: 2px;
+}
+form{
     width: 600px;
     height: 400px;
-    border: #611717;
+    margin: 50px auto;
+    padding-left: 30px;
+    position: absolute;
+    left: 50%;
+    top: 10%;
+}
+.btn input{
+    width: 100px;
+    height: 30px;
+    background: rgb(157, 157, 207);
+    font-size: 18px;
+    color: white;
+    background-repeat: 3px;
+    border: 1px solid #d4cdba;
+    margin-top: 20px;
+    margin-left: 70px;
 }
