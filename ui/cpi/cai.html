@@ -11,7 +11,7 @@
         <div class="box2">
                 <form action="#" method="GET" autocomplete="off">
                 <p><span>选择年级</span>
-                        <select class="grade">
+                        <select class="level">
                                         <option>一年级</option>
                                         <option>二年级</option>
                                         <option>三年级</option>
@@ -21,31 +21,12 @@
                                 </select>
                         
                 </p>
-                <p><span>历史成绩
-                </span>
-                <select class="result" >
-                                <option>三天之内</option>
-                                <option>一星期之内</option>
-                                <option>一个月之内</option>
-                                <option>半年之内</option>
-                                <option>一年之内</option>
-                        </select>
+                <p><span>题目题数</span><input type="number" oninput="if( this.value.length > 4 )  this.value = this.value.slice(0,4)" value="" required>
                 </p>
-                <p><span>题目题数</span><input type="num" name="sum" value="" required>
-                </p>
-                <p><span>操作数的数量</span><input type="num1" name="sum1" value="" required>
-                </p>
-                <p><span>运算符的种类</span>
-                </p>
-                <p><span>是否支持小数运算</span>
-                </p>
-                <p><span>是否支持乘方运算</span>
-                </p>
-                <p><span>是否支持真分数运算</span>
-                </p>
+                
                 <p class="btn">
-                                <input type="button" value="确定"/>
-                                <input type="reset" value="重置"/>
+                                <input type="submit" value="练习模式"/>
+                                <input type="submit" value="考试模式"/>
                 </p>
         </form>
         </div>

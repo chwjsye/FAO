@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="css.css" type="text/css">
+</head>
+
+<body>
+    <div class="box1">
+        <div class="content">
+            <p><samp>操作数的数量</samp><input type="number"
+                    oninput="if( this.value.length > 2 )  this.value = this.value.slice(0,2)" value="选择范围（100以内）"
+                    required></p>
+            <p><samp>运算符的种类</samp>
+               <input type="checkbox" >+
+               <input type="checkbox" >-
+               <input type="checkbox" >*
+               <input type="checkbox" >/
+            </p>
+            <p><samp>是否支持小数运算</samp>
+               <input type="radio">是
+               <input type="radio">否
+            </p>
+            <p><samp>是否支持乘方运算</samp>
+                <input type="radio">是
+                <input type="radio">否
+            </p>
+            <p><samp>是否支持真分数运算</samp>
+                <input type="radio">是
+                <input type="radio">否
+            </p>
+        </div>
+    </div>
+</body>
+
+</html>
