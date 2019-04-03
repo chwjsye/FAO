@@ -13,7 +13,7 @@
     <div class="box1">
         <div class="content">
             <p><samp>操作数的数量</samp><input type="number"
-                    oninput="if( this.value.length > 2 )  this.value = this.value.slice(0,2)" value="选择范围（100以内）"
+                    oninput="if( this.value.length > 2 )  this.value = this.value.slice(0,2)" value="1"
                     required></p>
             <p><samp>运算符的种类</samp>
                <input type="checkbox" >+
@@ -22,16 +22,23 @@
                <input type="checkbox" >/
             </p>
             <p><samp>是否支持小数运算</samp>
-               <input type="radio">是
-               <input type="radio">否
+               <input type="radio" name="ch">是
+               <input type="radio" name="ch">否
             </p>
             <p><samp>是否支持乘方运算</samp>
-                <input type="radio">是
-                <input type="radio">否
+                <input type="radio" name="ch1">是
+                <input type="radio" name="ch1">否 
             </p>
             <p><samp>是否支持真分数运算</samp>
-                <input type="radio">是
-                <input type="radio">否
+                <input type="radio" name="ch2">是
+                <input type="radio" name="ch2">否
+            </p>
+            <p class="btn">
+                    <input type="submit" value="提交"/>
+                    
+                    <a href="../practice/practice.html"><input type="button"  value="练习模式" ></a>
+                    <a href="../exam/exam.html"><input type="button" value="考试模式" ></a>
+                            
             </p>
         </div>
     </div>
