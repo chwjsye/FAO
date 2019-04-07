@@ -1,0 +1,44 @@
+﻿*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+p{
+    font-size: 18px;
+    font-family: "幼圆";
+}
+p input{
+    border-style:solid;
+    border-width:1px;
+}
+.box1{
+    position: relative;
+    width: 600px;
+    height: 400px;
+    margin: 100px auto;
+    border-style: solid;
+    border-width: 5px;
+    border-color: #666;
+    
+    
+}
+.content
+{
+    position: absolute;
+    width: 400px;
+    height: 100px;
+    top: 80%;
+    left: 50%;
+    margin-left: -200px;
+    margin-top: -200px;
+    text-align: center
+}
+.btn input{
+    width: 50px;
+    height: 25px;
+    background: white;
+    font-size: 1px;
+    color: black;
+    background-repeat: 3px;
+    border: 1px solid #979696;
+}

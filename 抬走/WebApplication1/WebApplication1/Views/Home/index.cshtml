@@ -1,0 +1,36 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="~/Content/index.css" type="text/css">
+</head>
+<body>
+    <div class="box2">
+        <form action="#" method="GET" autocomplete="off">
+            <p>
+                <span>选择年级</span>
+                <select class="cl">
+                    <option>一年级</option>
+                    <option>二年级</option>
+                    <option>三年级</option>
+                    <option>四年级</option>
+                    <option>五年级</option>
+                    <option>六年级</option>
+                </select>
+                <span>题目题数</span><input type="number" oninput="if( this.value.length > 4 )  this.value = this.value.slice(0,4)" value="" required>
+            </p>
+
+
+
+            <p class="btn">
+                <a href="~/Home/Custom1"><input type="button" value="自定义"></a>
+                <a href="~/Home/Practice"><input type="button" value="练习模式"></a>
+                <a href="~/Home/Exam"><input type="button" value="考试模式"></a>
+            </p>
+        </form>
+    </div>
+</body>
+</html>
